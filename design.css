@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.nav{
+    height: 100vh;
+    width: 100%;
+    background-image:url(pexels-foysal-ahmed-2102283-6053290.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    background-attachment: fixed;
+}
+.log img{
+    position: absolute;
+    height: 95px;
+    width: 200px;
+    margin-left: 1rem;
+
+}
+.ssr{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 36px;
+    height: 24px;
+    width: 18%;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
+.ssr:hover{
+    border: 4px solid #3d21dd;
+}
+.or{
+    display: flex;
+    margin-left: 65%;
+    margin-top: 40px;
+    justify-content:space-evenly;
+    text-align: center;
+
+}
+.or li{
+    display: 3;
+    list-style: none;
+    padding: 1px 25px;
+}
+.or li a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.or li a::after{
+   content: '';
+   width: 0%;
+   height: 4px;
+   background: #2040f3;
+   display: block;
+   transform: 0.5s;
+}
+.or li a:hover::after{
+    width: 100%;
+}
+.pho{
+    display: flex;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    margin-top: 18rem;
+    text-align: center;
+    font-size: 20px;
+}
+.text-box{
+    position: absolute;
+    top: 20rem;
+    left: 4rem;
+    text-align: start;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    position: absolute;
+    top: 12rem;
+    left: 15rem;
+}
+.btn{
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     border-radius: 35px;
+     padding: 12px;
+     background: transparent;
+     cursor: pointer;
+     position: relative;
+     font-size: 3vh;
+}
+    
+
+.btn:hover{
+   border: 1px solid rgb(47, 47, 255);
+   background: rgb(47, 47, 255);
+   transition: 1s;
+}
+.pp{
+    position: absolute;
+    top: 11rem;
+    left: 60rem;
+    display: flex;
+    height: 22rem;
+    width: 16rem;  
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+    top: 33rem;
+    left: 62rem ;
+    color: white;
+    font-size: 1.4rem;
+    font-family:cursive;
+
+}
+
+@media(max-width: 700px){
+    .text-box{
+        font-size: 8px;
+        left: 1rem;
+        top: 20rem;
+    }
+    
+    .log img{
+         position: absolute;
+    height: 50px;
+    width: 100px;
+    }
+    .ssr{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 18px;
+    height: 19px;
+    width: 26%;
+    border-radius: 20px;
+    font-size: 10px;
+    border: none;
+    }
+    .pp{
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    display: flex;
+    height: 9rem;
+    width:25rem;  
+    overflow: hidden;
+    }
+    .text{
+    position: absolute;
+    top: 16.5rem;
+    left: 6rem ;
+    color: white;
+    font-size: 0.7rem;
+    font-family:cursive;
+}
+     .button{
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    
+}
+  .btn{
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 0.8px solid #fff;
+     border-radius: 35px;
+     padding: 8px;
+     background: transparent;
+     cursor: pointer;
+     position: relative;
+     font-size: 1.8vh;
+   
+}
+    .or li a{
+  color: black;
+  font-size: 13px;
+}
+.nav{
+    height: 100vh;
+    width: 90%;
+    background-image:url(pexels-foysal-ahmed-2102283-6053290.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+.or{
+    display: block;
+    background: blue;
+    height: 90vh;
+    width: 100px;
+    position: absolute;
+    right: 0rem;
+    top: -2.5rem;text-align: left;
+    z-index: 2;
+    padding: 10% 2px;
+}
+.man{
+    font-size: 1vh;
+}
+    .main{
+    position: absolute;
+    margin-top: 2%;
+    background-color: rgb(81, 84, 238);
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 20rem;
+    display: flex;
+    height: 10px;
+    width: 15px;
+}
+
+}
+.man{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3.5vh;
+}
+.man h3{
+    color: rgb(42, 42, 250);
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    background-color: rgb(81, 84, 238);
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 18rem;
+}
+
+.img1{
+    height: 12rem;
+    width: 16rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig1{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img2{
+    height: 12rem;
+    width: 20rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig2{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img3{
+    height: 12rem;
+    width: 14rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig3{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img4{
+    height: 12rem;
+    width: 18rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig4{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(81, 84, 238);
+    background-size: cover;
+    height: 18rem;
+    margin-top: 2rem;
+}
+.img5{
+    height: 12rem;
+    width: 18rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig5{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img6{
+    height: 12rem;
+    width: 18rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig6{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img7{
+    height: 12rem;
+    width: 18rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig7{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
+.img8{
+    height: 12rem;
+    width: 18rem;
+    margin-top: 2vh;
+    background-size: cover;
+}
+.fig8{
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+}
